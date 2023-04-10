@@ -16,4 +16,15 @@ class Persona{
    return calculo;
 
   }
+  public bool PuedeVotar(int calculo){
+    bool Vota;
+    if (calculo >= 16){
+      Vota = true;
+      return Vota;
+    }
+    else{
+      Vota = false;
+      return Vota;
+    }
+  }
 }

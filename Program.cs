@@ -6,6 +6,9 @@ class Program
        List<Persona> listaPersonas = new List<Persona>();
        int Opcion = 0;
        int contador = 0;
+       int calculo;
+       int contador2 = 0;
+       bool Vota;
        while (Opcion != 5){
         Console.WriteLine("1- Cargar Nueva Persona \n 2- Obtener Estadísticas del Censo \n 3- Buscar Persona \n 4- Modificar Mail de una Persona. \n 5- Salir");
         Opcion = IngresarInt("Ingrese la opción");
@@ -20,6 +23,11 @@ class Program
        Console.WriteLine("La Persona con los datos ordenados en Dni, apellido, nombre, email y fecha de nacimiento: " + Persona1.DNI + " " + Persona1.Apellido + " " + Persona1.Nombre + " " + Persona1.Email + " " + Persona1.FechaNacimiento +", Ha sido agregado/a a la lista");
        contador ++;
        listaPersonas.Add(Persona1);
+       calculo = Persona1.ObtenerEdad(fechanacimiento);
+       Vota = Persona1.PuedeVotar(calculo);
+       if (Vota = true){
+       contador2 ++;
+       }
        break;
        case 2:
        Console.WriteLine("Estadísticas del censo: \n Cantidad de Personas: " + contador + " \n Cantidad de Personas habilitadas para votar: " + " \n Promedio de Edad: ");
