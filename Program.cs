@@ -26,7 +26,8 @@ class Program
        listaPersonas.Add(Persona1);
        calculo = Persona1.ObtenerEdad(fechanacimiento);
        Vota = Persona1.PuedeVotar(calculo);
-       suma = suma + Edad;
+       int edad = Persona1.ObtenerEdad(fechanacimiento);
+       suma = suma + edad;
        if (Vota = true){
        contador2 ++;
        }
