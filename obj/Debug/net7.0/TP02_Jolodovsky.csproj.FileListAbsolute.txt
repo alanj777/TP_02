@@ -1,0 +1,15 @@
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.csproj.AssemblyReference.cache
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.AssemblyInfoInputs.cache
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.AssemblyInfo.cs
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.csproj.CoreCompileInputs.cache
+Z:\Programación4to\TP02_Jolodovsky\bin\Debug\net7.0\TP02_Jolodovsky.exe
+Z:\Programación4to\TP02_Jolodovsky\bin\Debug\net7.0\TP02_Jolodovsky.deps.json
+Z:\Programación4to\TP02_Jolodovsky\bin\Debug\net7.0\TP02_Jolodovsky.runtimeconfig.json
+Z:\Programación4to\TP02_Jolodovsky\bin\Debug\net7.0\TP02_Jolodovsky.dll
+Z:\Programación4to\TP02_Jolodovsky\bin\Debug\net7.0\TP02_Jolodovsky.pdb
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.dll
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\refint\TP02_Jolodovsky.dll
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.pdb
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\TP02_Jolodovsky.genruntimeconfig.cache
+Z:\Programación4to\TP02_Jolodovsky\obj\Debug\net7.0\ref\TP02_Jolodovsky.dll
