@@ -9,6 +9,7 @@ class Program
        int calculo;
        int contador2 = 0;
        bool Vota;
+       int suma = 0;
        while (Opcion != 5){
         Console.WriteLine("1- Cargar Nueva Persona \n 2- Obtener Estadísticas del Censo \n 3- Buscar Persona \n 4- Modificar Mail de una Persona. \n 5- Salir");
         Opcion = IngresarInt("Ingrese la opción");
@@ -25,12 +26,14 @@ class Program
        listaPersonas.Add(Persona1);
        calculo = Persona1.ObtenerEdad(fechanacimiento);
        Vota = Persona1.PuedeVotar(calculo);
+       suma = suma + Edad;
        if (Vota = true){
        contador2 ++;
        }
        break;
        case 2:
-       Console.WriteLine("Estadísticas del censo: \n Cantidad de Personas: " + contador + " \n Cantidad de Personas habilitadas para votar: " + " \n Promedio de Edad: ");
+       double Promedio = suma / contador;
+       Console.WriteLine("Estadísticas del censo: \n Cantidad de Personas: " + contador + " \n Cantidad de Personas habilitadas para votar: "+ contador2 + " \n Promedio de Edad: " + Promedio);
        break;
        case 3:
        break;
